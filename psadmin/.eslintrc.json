@@ -15,8 +15,11 @@
         "no-const-assign": "warn",
         "no-this-before-super": "warn",
         "no-undef": "warn",
+        "no-trailing-spaces": "warn",
         "no-unreachable": "warn",
         "no-unused-vars": "warn",
+        "quotes": ["warn", "single"],
+        "semi": ["error", "always"],
         "constructor-super": "warn",
         "valid-typeof": "warn"
     },
