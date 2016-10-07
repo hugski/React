@@ -1,0 +1,46 @@
+{
+  "name": "todocard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node tools/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alt": "^0.17.1",
+    "css-loader": "^0.25.0",
+    "firebase": "^3.4.0",
+    "lodash": "^3.10.1",
+    "material-ui": "^0.15.0",
+    "node-sass": "^3.10.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-tap-event-plugin": "^1.0.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "trim": "0.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-react-display-name": "^2.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-register": "^6.14.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.6.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-react": "^6.3.0",
+    "react-hot-loader": "^3.0.0-beta.5",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
