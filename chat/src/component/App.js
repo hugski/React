@@ -45,13 +45,13 @@ class App extends Component {
         if (this.props.user) {
             return(
                 <div>
-                <AppBar title="Awesome Chat App" />
+                <AppBar title="ChatRoom" />
                     <div style={{
                         display: 'flex',
                         flexFlow: 'row wrap',
                         overflow: 'scroll',
                         maxWidth: 1200,
-                        height: 500,
+                        height: 400,
                         width: '100%',
                         margin: '30px 10px 30px 10px'
                     }}>
